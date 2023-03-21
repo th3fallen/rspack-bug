@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Rspack + React</title>
-		<% if (process.env.NODE_ENV === 'development') { %>
+<html>
+<head>
+	<!-- End Google Tag Manager -->
+	<title>redacted</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+
+	<!-- Roboto font from Google CDN -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+	<% if (noindex) { %>
+	<meta name="robots" content="noindex">
+	<% } %>
+</head>
+<body>
+<div id="wiw-app">
+	<div class="global-loader" >
+		<div class="global-loader-backdrop" ></div>
+		<div class="loading-app default global-loader-body" >
+			<div class="loader-background" ></div>
+			<div class="loader-segment light" ></div>
+			<div class="loader-segment medium" ></div>
+			<div class="loader-segment dark" ></div>
+			<noscript>Please enable JavaScript to use this application.</noscript>
+			<span id="initial-loading-text"></span>
 			<script>
-			  console.log(1)
+				document.getElementById('initial-loading-text').innerText = 'Loading...';
 			</script>
-		<% } %>
-	</head>
-	<body>
-		<div id="root"></div>
-	</body>
+		</div>
+	</div>
+</div>
+<div id="global-loader-root"></div>
+</body>
 </html>
