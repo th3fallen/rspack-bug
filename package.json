@@ -3,16 +3,31 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development rspack serve",
+    "dev": "rspack serve --mode development --env development",
     "dev:webpack": "cross-env NODE_ENV=development webpack serve"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
     "@rspack/cli": "latest",
     "@rspack/plugin-html": "latest",
     "cross-env": "^7.0.3",
     "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.2.4",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
     "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "crc": "3.8.0",
+    "react": "^18.2.0",
+    "react-dnd": "2.6.0",
+    "react-dnd-html5-backend": "2.6.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.1.2"
   }
 }

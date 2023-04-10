@@ -1,163 +1,148 @@
-const { getConfig } = require('./config');
+/** @type {import('@rspack/cli').Configuration} */
+
 
 const path = require('path');
 
-
-const { config } = getConfig();
 const cwd = process.cwd();
 
-const publicPath =
-	(config.PREFIX || '').replace(/\/$/, '') +
-	path.join(process.env.PUBLIC_PATH || '/').replace(/^\./, '');
-const env = {
-	...config,
-	PUBLIC_PATH: publicPath || '/',
-	ENV: process.env.NODE_ENV || 'dev',
-	DEPLOY: {
-		SHA: process.env.GIT_SHA,
-		TAG: process.env.GIT_TAG,
-	},
+
+const getSourceMapType = envFlag => {
+	switch (envFlag) {
+		case 'staging':
+			return 'eval-source-map';
+		case 'development':
+			return 'cheap-module-source-map';
+		default:
+			return false;
+	}
 };
 
-console.log('rspack.config:22', cwd);
-module.exports = {
-	builtins: {
-		presetEnv: {
-			corejs: 3,
+module.exports = function (envFlag) {
+	const envName = Object.keys(envFlag).pop() ?? process.env.NODE_ENV;
+
+	const isDevelopment = envName === 'development';
+
+
+	const env = {
+		ENV: envName,
+		DEPLOY: {
+			SHA: process.env.GIT_SHA,
+			TAG: process.env.GIT_TAG,
 		},
-		define: {
-			'process.env': {}, // god dammit Twilio why do you always reference Node stuff in your browser code?? why?????
-			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-			CONFIG: JSON.stringify(env),
-		},
-		html: [
-			{
-				template: 'app/index.html',
-				filename: 'index.html',
-				favicon: 'app/styles/assets/img/favicon.ico',
-				templateParameters: {
-					googleMapsToken: config.GOOGLE_MAPS_TOKEN,
-					iconLibraryRoot: `${ config.ICON_LIBRARY_HOST }/${ config.ICON_LIBRARY_VERSION }`,
-				},
+	};
+
+	return {
+		mode: 'production',
+		devtool: getSourceMapType(envName),
+		builtins: {
+			presetEnv: {
+				corejs: 3,
 			},
-			// {
-			//   filename: 'ok',
-			//   template: 'app/ok',
-			//   templateParameters: {
-			//     build: JSON.stringify(env.DEPLOY).toLocaleLowerCase(),
-			//   },
-			// },
-		],
-		copy: {
-			patterns: [
-				{ from: 'app/shared/static-assets', to: 'static-assets' },
-				{ from: 'app/shared/well-known', to: '.well-known' },
-			],
-		},
-	},
-	target: ['web'],
-	devtool: 'source-map',
-	entry: {
-		main: './app/main',
-		thirdParty: './app/shared/vendor',
-	},
-	output: {
-		publicPath: publicPath || '/',
-		path: path.resolve(cwd, 'dist'),
-		filename: 'assets/js/[name]-[chunkhash].js',
-	},
-	resolve: {
-		mainFields: ['browser', 'main', 'module'],
-		modules: [path.resolve('node_modules'), 'node_modules', path.resolve(cwd, 'app')].concat(/* ... */),
-		extensions: ['.wasm', '.mjs', '.ts', '.tsx', '.js', '.jsx', '.json'],
-		fallback: { 'util': require.resolve('util/') },
-	},
-	devServer: {
-		client: {
-			overlay: true,
-			progress: true,
-			webSocketURL: {
-				protocol: 'wss',
-				hostname: 'appx.whenidev.net',
-				port: 443,
+			define: {
+				'process.env': {}, // god dammit Twilio why do you always reference Node stuff in your browser code?? why?????
+				CONFIG: JSON.stringify(env),
 			},
-		},
-		host: '0.0.0.0',
-		port: 3000,
-		hot: 'only',
-		allowedHosts: 'all',
-		historyApiFallback: true,
-	},
-	module: {
-		rules: [
-			{
-				test: /\.js$/,
-				type: 'jsx',
-			},
-			{
-				test: /\.css$/,
-				use: [
-					{
-						loader: 'postcss-loader',
+			html: [
+				{
+					template: 'app/index.html',
+					filename: 'index.html',
+					templateParameters: {
 					},
-				],
+				},
+			],
+			react: {
+				runtime: 'automatic',
 			},
-			{
-				test: /\.scss$/,
-				use: [
-					{
-						loader: 'sass-loader',
-						options: {
-							additionalData: '@import "styles/resources";',
-							sassOptions: {
-								quietDeps: true,
-								includePaths: [path.join(cwd, 'app')],
+		},
+		target: ['web'],
+		entry: './app/main',
+		output: {
+			publicPath: '/',
+			path: path.resolve(cwd, 'dist'),
+			filename: isDevelopment ? 'assets/js/[name].js' : 'assets/js/[name]-[chunkhash].js',
+			cssFilename: isDevelopment ? 'assets/css/[name].css' : 'assets/css/[name]-[chunkhash].css',
+			cssChunkFilename: isDevelopment ? 'assets/css/fart-[chunkhash].css' : 'assets/css/[name]-[chunkhash].css',
+		},
+		resolve: {
+			modules: ['node_modules', 'app'],
+		},
+		devServer: isDevelopment ? {
+			host: '0.0.0.0',
+			port: 3001,
+			hot: true,
+			allowedHosts: 'all',
+			historyApiFallback: true,
+		} : {},
+		module: {
+			rules: [
+				{
+					test: /\.(ts |jsx?)$/,
+					type: 'jsx',
+					include: [path.resolve(cwd, 'app')],
+				},
+				{
+					test: /\.mjs$/i,
+					type: 'javascript/esm',
+				},
+				{
+					test: /\.css$/,
+					use: [
+						{
+							loader: 'postcss-loader',
+						},
+					],
+				},
+				{
+					test: /\.scss$/,
+					use: [
+						{
+							loader: 'sass-loader',
+							options: {
+								sassOptions: {
+									quietDeps: true,
+									includePaths: [path.join(cwd, 'app')],
+								},
 							},
 						},
-					},
-				],
-				type: 'css',
-			},
-			{
-				test: /\.mjs$/,
-				type: 'javascript/auto',
-			},
-			{
-				test: /\.(woff|woff2|eot|ttf)$/,
-				type: 'asset',
-				parser: {
-					dataUrlCondition: {
-						maxSize: 4 * 1024,
-					},
+					],
+					type: 'css',
 				},
-				generator: {
-					filename: 'assets/font/[hash][ext][query]',
-				},
-			},
-
-			{
-				test: /\.(png|jpe?g|gif|svg|xlsx)$/,
-				type: 'asset',
-				parser: {
-					dataUrlCondition: {
-						maxSize: 4 * 1024,
+				{
+					test: /\.(woff|woff2|eot|ttf)$/,
+					type: 'asset',
+					parser: {
+						dataUrlCondition: {
+							maxSize: 4 * 1024,
+						},
+					},
+					generator: {
+						filename: 'assets/font/[hash][ext][query]',
 					},
 				},
-				generator: {
-					filename: 'assets/img/[hash][ext][query]',
+				{
+					test: /\.(png|jpe?g|gif|svg|xlsx)$/,
+					type: 'asset',
+					parser: {
+						dataUrlCondition: {
+							maxSize: 4 * 1024,
+						},
+					},
+					generator: {
+						filename: 'assets/img/[hash][ext][query]',
+					},
 				},
-			},
-			{
-				test: /\.yml$/,
-				type: 'asset',
-			},
-			{
-				test: /\.ico$/,
-				type: 'asset/resource',
-				generator: {
-					filename: 'assets/img/[name][ext][query]',
+				{
+					test: /\.yml$/,
+					type: 'asset',
 				},
-			},
-		],
-	},
+				{
+					test: /\.ico$/,
+					type: 'asset',
+					generator: {
+						filename: 'assets/img/[name][ext][query]',
+					},
+				},
+			],
+		},
+	};
 };
