@@ -1,4 +1,7 @@
-import '../styles/test.scss';
+import {SortableElement} from 'react-sortable-hoc';
+
 export default function ShiftItem(props) {
-  return 'hi'
+  return (
+     <SortableElement>hi</SortableElement>
+  )
 }
