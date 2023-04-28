@@ -206,7 +206,6 @@
     "react-sortable-hoc": "2.0.0",
     "react-tabs": "^6.0.0",
     "react-textarea-autosize": "8.4.0",
-    "react-tiny-virtual-list": "github:wheniwork/react-tiny-virtual-list.git",
     "react-toastify": "9.1.1",
     "react-toggle": "4.1.3",
     "react-transition-group": "4.4.5",

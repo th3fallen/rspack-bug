@@ -9493,12 +9493,6 @@ react-themeable@^1.1.0:
   dependencies:
     object-assign "^3.0.0"
 
-"react-tiny-virtual-list@github:wheniwork/react-tiny-virtual-list.git":
-  version "2.2.2"
-  resolved "https://codeload.github.com/wheniwork/react-tiny-virtual-list/tar.gz/cf24e24cd7c9cd6e09766216cc4a3fad8184c1f9"
-  dependencies:
-    prop-types "^15.5.7"
-
 react-toastify@9.1.1:
   version "9.1.1"
   resolved "https://nexus.wheniwork.com/repository/npm/react-toastify/-/react-toastify-9.1.1.tgz#9280caea4a13dc1739c350d90660a630807bf10b"
