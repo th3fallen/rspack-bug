@@ -73,6 +73,23 @@ module.exports = function (envFlag) {
 			allowedHosts: 'all',
 			historyApiFallback: true,
 		} : {},
+		optimization: {
+			splitChunks: {
+				chunks: 'all',
+				minChunks: 1,
+				cacheGroups: {
+					defaultVendors: {
+						test: /[\\/]node_modules[\\/]/,
+						priority: -10,
+						name: 'vendor',
+					},
+					default: {
+						minChunks: 2,
+						priority: -20,
+					},
+				},
+			},
+		},
 		module: {
 			rules: [
 				{

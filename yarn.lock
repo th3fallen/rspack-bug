@@ -541,7 +541,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.1", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.7.2":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.7.2":
   version "7.16.7"
   resolved "https://nexus.wheniwork.com/repository/npm/@babel/runtime/-/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
   integrity sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==
@@ -1643,21 +1643,6 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@pmmmwh/react-refresh-webpack-plugin@0.5.10":
-  version "0.5.10"
-  resolved "https://nexus.wheniwork.com/repository/npm/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.10.tgz#2eba163b8e7dbabb4ce3609ab5e32ab63dda3ef8"
-  integrity sha512-j0Ya0hCFZPd4x40qLzbhGsh9TMtdb+CJQiso+WxLOPNasohq9cc5SNUcwsZaRH6++Xh91Xkm/xHCkuIiIu0LUA==
-  dependencies:
-    ansi-html-community "^0.0.8"
-    common-path-prefix "^3.0.0"
-    core-js-pure "^3.23.3"
-    error-stack-parser "^2.0.6"
-    find-up "^5.0.0"
-    html-entities "^2.1.0"
-    loader-utils "^2.0.4"
-    schema-utils "^3.0.0"
-    source-map "^0.7.3"
-
 "@polka/url@^1.0.0-next.9":
   version "1.0.0-next.11"
   resolved "https://nexus.wheniwork.com/repository/npm/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
@@ -1681,86 +1666,86 @@
     redux-thunk "^2.4.2"
     reselect "^4.1.7"
 
-"@rspack/binding-darwin-arm64@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-0.1.7.tgz#6eb216203b3ef38b3853567a41a9d728a557843e"
-  integrity sha512-ORme40lJW2/XDQ1ZBd9SMul+FhU5JL6xqbhRUq/9L0pfc1snxVazxum1YSxzJ3kvTKQBZv+h9St9etuOPaPYFA==
+"@rspack/binding-darwin-arm64@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-0.1.6.tgz#c5dafc9a444f2e00c4bd4973ea9372ec563b8770"
+  integrity sha512-uw6YohrQ4W8G67YW9w85WWbr3/FXd2xrcni7kNaBAg682o+sHcKo6oAgzzphzKfsdwUyX5xi/PJTTF8uPyG5Ww==
 
-"@rspack/binding-darwin-x64@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-darwin-x64/-/binding-darwin-x64-0.1.7.tgz#8cefd08b3fe17a272957b10d82c3964cbe69095d"
-  integrity sha512-97o3vIZJbsItXJIFH8bH9SNSD/dVzCRaJ4x8CCuRDRjHSJI3WxJBhrq7NIG4UUBBr+eXqKqRUdY37Oz8z5QTkQ==
+"@rspack/binding-darwin-x64@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-darwin-x64/-/binding-darwin-x64-0.1.6.tgz#88b9e391c7b4bfc9c46057997f5594654b1e7465"
+  integrity sha512-Xsjgka6kRZXnA1rwoo/K+7JzcH2X537vww5HD2FIRrII8VvgP/on9/VvnyQVJIcT9QJeRP4yZj+S88cCPxFtjw==
 
-"@rspack/binding-linux-arm64-gnu@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.1.7.tgz#51de9469cf747ae3ac0b4e3f47b0786b3c0ad951"
-  integrity sha512-aMSOBNiHX5QCD3lum6ac1V4NaFGkgqEM3+JDzDUJsGJ2kf3z/WGJE9TLfcouZs2tOogR56iAQfwR2IVzqeNomQ==
+"@rspack/binding-linux-arm64-gnu@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.1.6.tgz#17f4e473a302075382f7742046bf5a3d21a461ae"
+  integrity sha512-g28AiYQZJ9SqStRdhE+EPfbKtOKwdsX022AaeWcqUd+b4R0Hpo52zoeYnydJC3VigGfkvhz/oFdXSTSSPfOsHw==
 
-"@rspack/binding-linux-arm64-musl@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.1.7.tgz#3f2d49dd264bf7668bd453a8f9065cfe589c671b"
-  integrity sha512-dsMz6GKeGiLElL4Jri/r/M67C4dHWJXyd6O04LCJ4tPF4IuM+vDhlQctK6ugdtVEn1kvmJuKu8xC/3wbptBIjA==
+"@rspack/binding-linux-arm64-musl@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.1.6.tgz#c5f8e996076ddd3eefb6bcfd24ad206badf7521d"
+  integrity sha512-cEZmbznvY3NwZRsCymAkonD7o6K+iv2NA502j9f/X4TycukL95TAZSkw3UAY5pncXfqLSXsIVEYY5NU76DHPAg==
 
-"@rspack/binding-linux-x64-gnu@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.1.7.tgz#b58863279f25f2a2270dd4794367ff47a996fd8d"
-  integrity sha512-hdyD152UDzCSqWXoTuIQemR1rUYYpOusmrHRLmsfHFJ3q++tcR+Bh5r76M2tUpXVaclUFBelyXE4YGFPMyURzg==
+"@rspack/binding-linux-x64-gnu@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.1.6.tgz#d49a6eb6be6da5cae8faedf0c3bb61d6a036916e"
+  integrity sha512-x53Sl2+k69tAVdxnpvA0OsTubMp5H85Fh4qfVRpIXZp1dUJKXwpvOAW0NJQk9QZ1C1re+6N47xt7I70aa7lxDg==
 
-"@rspack/binding-linux-x64-musl@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-0.1.7.tgz#0545d360dc5d07e7738d5c32f114607505548d2c"
-  integrity sha512-+YbKgHKUO/kTy0giyJwkkK45079GE7ezNQT3bGOfWX2sgXAxhp9Oxfd0zZ2v8ki6t4wj8lSFIFKiBLKkH1b2kQ==
+"@rspack/binding-linux-x64-musl@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-0.1.6.tgz#ed48af2a4a402f074b3cd313a8eee9549ec37d5b"
+  integrity sha512-LXCBfz0RoAkpWYB3F4oIefBddfon5EZDpU+RrezHPb0WJArI0hmhUGjFR8ru8yqYuMadcCLyUDTOjaVqznVkAw==
 
-"@rspack/binding-win32-arm64-msvc@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.1.7.tgz#211fd7520ba308c2dbeb85049d34198c4394490f"
-  integrity sha512-TKhfqFCW+kcKdUuCswcUCzJxmmkYMgjFETJsgOcXL2FksBGDv34pfMsrx5TjmVH8FitPyjEIecS/fURnGYfzOw==
+"@rspack/binding-win32-arm64-msvc@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.1.6.tgz#7e5da2db31e47eef9fd54c7eca9f49a77f06bfd2"
+  integrity sha512-C5A/LO8GqxTnfOunptQtSYOJ/NfL+lJX0ynfHds04e2ASoT2LMAg/aavR2Zj5O1a8KGRy4N40D+hwvauilDxGQ==
 
-"@rspack/binding-win32-ia32-msvc@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.1.7.tgz#0e4491a953ef986f2d6c24c5c552a52a11c961ad"
-  integrity sha512-E3KsLl8iwEw8KiycLqHtnytSMai1bm849rFOEumFVV3j8AwE6d9MogRu/bt2jBO1picaoytYQc02GZ15rTpOcA==
+"@rspack/binding-win32-ia32-msvc@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.1.6.tgz#9bd343c8ab3925b08970af1b34b5929ea70e983a"
+  integrity sha512-YhSfwk+Mmf1GnsZa1bykdVVRkdhYqYDPgi4O67KN2tH5QwVcVeEXL0+W3STYjCEJSI2CpuN48sSodS3t/yhLlw==
 
-"@rspack/binding-win32-x64-msvc@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.1.7.tgz#57e5b946dfb1197681282af449e61edf6ad9c26c"
-  integrity sha512-AK3Kjkd1z5x5r+UjqATSUsEIxBDk7VCzUF9DADJJhRBcq6Gmw2KompKfFu0OvfooLjdgfv0+22VJsuTF9nR0pw==
+"@rspack/binding-win32-x64-msvc@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.1.6.tgz#2fad51426475b80165268372a4b2820876502622"
+  integrity sha512-YOWNKbH+CFpiaTwDpc/kKQwHeT4N+rgUeZ0szBDJpSuJVd7LLoN3jrrD9ZbVrmlExuWsGD6STgW1ia8sXCA48g==
 
-"@rspack/binding@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding/-/binding-0.1.7.tgz#fd99776c290c826bee1adf09ecee80ee832da549"
-  integrity sha512-wQPbkHm+owedlO+SnIYhr1Cjuadx2vxGMKwq+cpw8Aty8CgiR2xCNSISUn9RIRfntxfrT9G0Ym7X/W2DV0o7sA==
+"@rspack/binding@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/binding/-/binding-0.1.6.tgz#8447f25732885f5962e7b1521405fcf50f7a014e"
+  integrity sha512-UvsbiJNeIpIIzNjaiIm0b6WsKvUCghb3zgaRJGblfiLX/M5/9JwmLQxOYk1jVYHmlG9/bWm++rJVVuiQlMLAAA==
   optionalDependencies:
-    "@rspack/binding-darwin-arm64" "0.1.7"
-    "@rspack/binding-darwin-x64" "0.1.7"
-    "@rspack/binding-linux-arm64-gnu" "0.1.7"
-    "@rspack/binding-linux-arm64-musl" "0.1.7"
-    "@rspack/binding-linux-x64-gnu" "0.1.7"
-    "@rspack/binding-linux-x64-musl" "0.1.7"
-    "@rspack/binding-win32-arm64-msvc" "0.1.7"
-    "@rspack/binding-win32-ia32-msvc" "0.1.7"
-    "@rspack/binding-win32-x64-msvc" "0.1.7"
+    "@rspack/binding-darwin-arm64" "0.1.6"
+    "@rspack/binding-darwin-x64" "0.1.6"
+    "@rspack/binding-linux-arm64-gnu" "0.1.6"
+    "@rspack/binding-linux-arm64-musl" "0.1.6"
+    "@rspack/binding-linux-x64-gnu" "0.1.6"
+    "@rspack/binding-linux-x64-musl" "0.1.6"
+    "@rspack/binding-win32-arm64-msvc" "0.1.6"
+    "@rspack/binding-win32-ia32-msvc" "0.1.6"
+    "@rspack/binding-win32-x64-msvc" "0.1.6"
 
-"@rspack/cli@^0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/cli/-/cli-0.1.7.tgz#42c31dece1f8fca96d87aea07e4869dfd18d7cfa"
-  integrity sha512-iwaZ6zYSt12fTZ3UBZhFtj/wZtCfddK8813aD6sJXvOXF0R0SLyOx2WcMCBvEiV8DTRuRXpRHk3XFxo9U1HGCw==
+"@rspack/cli@^0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/cli/-/cli-0.1.6.tgz#0c752c978537aad7c69964826ee46a51f42e0eb5"
+  integrity sha512-fA8x9FiguQ1xYL5ewbhWW6Y8AUXdxWdacwbEC/oL2godeEs8u3eCxSoYXF0Kd8tw4IF8MY2IW6qlf4UcO8Svfg==
   dependencies:
     "@discoveryjs/json-ext" "^0.5.7"
-    "@rspack/core" "0.1.7"
-    "@rspack/dev-server" "0.1.7"
+    "@rspack/core" "0.1.6"
+    "@rspack/dev-server" "0.1.6"
     colorette "2.0.19"
     semver "6.3.0"
     webpack-bundle-analyzer "4.6.1"
     yargs "17.6.2"
 
-"@rspack/core@0.1.7", "@rspack/core@^0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/core/-/core-0.1.7.tgz#e8507b9840cc7967988e61ee842266fbb35d8ed1"
-  integrity sha512-RSGWIX5asfPhQbuHirqxsbRAOyNiB8OsHrXp28bbVMw25uPUnVFhipa+uhULCNjFCT7fHOkNVEr9zx8QPuwPwg==
+"@rspack/core@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/core/-/core-0.1.6.tgz#9f601d68ac3797917e91fb22dd0499b2ca74ee47"
+  integrity sha512-zRCGYQSQLMgjIdlZqjptTDNUVCAmHy0Jx5OGn3xm0m/MCgEbCEgN8STg3tYas/Elj6UYswTqUUnabcpQ3dKo5Q==
   dependencies:
-    "@rspack/binding" "0.1.7"
-    "@rspack/dev-client" "0.1.7"
+    "@rspack/binding" "0.1.6"
+    "@rspack/dev-client" "0.1.6"
     "@swc/helpers" "0.4.13"
     browserslist "^4.21.3"
     enhanced-resolve "5.12.0"
@@ -1772,34 +1757,28 @@
     watchpack "^2.4.0"
     webpack-sources "3.2.3"
 
-"@rspack/dev-client@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/dev-client/-/dev-client-0.1.7.tgz#bfe69bda181017f88aaf4d17f3f663e735275144"
-  integrity sha512-NhW+bGZN5TGRQncE+HqA5EwkfyO6DEGMLlIpmDlmJtA7ut5islwKCRX/B109D402DpwlcepVWzf+qOH+SA6Auw==
-  dependencies:
-    "@pmmmwh/react-refresh-webpack-plugin" "0.5.10"
-    events "3.3.0"
-    webpack "5.74.0"
-    webpack-dev-server "4.11.1"
-    ws "8.8.1"
+"@rspack/dev-client@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/dev-client/-/dev-client-0.1.6.tgz#0cde9f93ed006c35571170001de2c21907eefb0b"
+  integrity sha512-REMeVaE/4AYi5rH0eyXF4xmJVUpYhi1Q6W9f4uamqIJ2qMXZRcqvzB7F9Azll6U/29YxO44EX1oa2tpmL9NN4Q==
 
-"@rspack/dev-middleware@0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/dev-middleware/-/dev-middleware-0.1.7.tgz#1931ed493b6354807e546298f85aa8464c897090"
-  integrity sha512-upxbL7jeJyYfr3bNde3RHs6nZg3CiJURTuMH00VdOsydXbbWlGAAMjmkOKBmOuj4czKvvvFzdivms3Kyjf5bMQ==
+"@rspack/dev-middleware@0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/dev-middleware/-/dev-middleware-0.1.6.tgz#e4e6d134ea054a93ac164ec1b313f6dbe477ff4d"
+  integrity sha512-qzaJ/y/mcyKgML8x13qhVr7/yOIoB2Uk9d4fx+pgi7tZCW78u2XMb3nJNGyLhNf07ZOZGUNNgyuvFUZBhsEvmw==
   dependencies:
-    "@rspack/core" "0.1.7"
+    "@rspack/core" "0.1.6"
     mime-types "2.1.35"
     webpack-dev-middleware "6.0.2"
 
-"@rspack/dev-server@0.1.7", "@rspack/dev-server@^0.1.7":
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/dev-server/-/dev-server-0.1.7.tgz#6cb8bbfb0acc5906abb4d9e2ae169d35f99a375d"
-  integrity sha512-ARbur88CVxG1KN43j9Z7qnfqy1bKrkoygASgP6XR/YqnB5FURcZopQQYqlPVeQuRSBL5MzVzGi5Ge6h5fMnbkg==
+"@rspack/dev-server@0.1.6", "@rspack/dev-server@^0.1.6":
+  version "0.1.6"
+  resolved "https://nexus.wheniwork.com/repository/npm/@rspack/dev-server/-/dev-server-0.1.6.tgz#25fa6a796c1ad63445d5d9a84fcab5067cdf8aa8"
+  integrity sha512-c0R78Yr12OMRWVNROxbSBAuPaSs3B/EXidR67QanNIwgOQU7kZW9y+Obm21McNhxOw/V3XOzEkm+ddCII5qSlw==
   dependencies:
-    "@rspack/dev-client" "0.1.7"
-    "@rspack/dev-middleware" "0.1.7"
-    "@rspack/dev-server" "0.1.7"
+    "@rspack/dev-client" "0.1.6"
+    "@rspack/dev-middleware" "0.1.6"
+    "@rspack/dev-server" "0.1.6"
     chokidar "3.5.3"
     connect-history-api-fallback "2.0.0"
     express "4.18.1"
@@ -2048,76 +2027,6 @@
   version "1.0.1"
   resolved "https://nexus.wheniwork.com/repository/npm/@tsconfig/recommended/-/recommended-1.0.1.tgz#7619bad397e06ead1c5182926c944e0ca6177f52"
   integrity sha512-2xN+iGTbPBEzGSnVp/Hd64vKJCJWxsi9gfs88x4PPMyEjHJoA3o5BY9r5OLPHIZU2pAQxkSAsJFqn6itClP8mQ==
-
-"@twilio/conversations@2.1.0":
-  version "2.1.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/@twilio/conversations/-/conversations-2.1.0.tgz#3afbb9f2f5c33bf5141d401099e6e5f02c4ff41b"
-  integrity sha512-ojtEYpEpZQrvAY1PkztzhMtx+4A2reaVsvz6X2Tvds5eh7Zg1APb1LLNmZTOSoyKB1J/RDSRtkn2fam0iyt8wA==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    "@twilio/declarative-type-validator" "^0.1.11"
-    "@twilio/mcs-client" "^0.5.3"
-    "@twilio/notifications" "^1.0.5"
-    "@twilio/operation-retrier" "^4.0.7"
-    "@twilio/replay-event-emitter" "^0.2.4"
-    core-js "^3.17.3"
-    iso8601-duration "=1.2.0"
-    isomorphic-form-data "^2.0.0"
-    lodash.isequal "^4.5.0"
-    loglevel "^1.6.6"
-    platform "^1.3.6"
-    twilio-sync "^3.1.0"
-    twilsock "^0.12.2"
-    uuid "^3.4.0"
-
-"@twilio/declarative-type-validator@^0.1.11":
-  version "0.1.11"
-  resolved "https://nexus.wheniwork.com/repository/npm/@twilio/declarative-type-validator/-/declarative-type-validator-0.1.11.tgz#23dfd2f4017819606d65bc11906226063eef6fd3"
-  integrity sha512-yRAMLPD8j3k67UFvPeZvfTlKYuceiNq+iZ8a/ADzAbZMeaV0FMvsJmG97MH8yN/VdXY9hcscchsnc99bJ1sClw==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    core-js "^3.17.3"
-
-"@twilio/mcs-client@^0.5.3":
-  version "0.5.3"
-  resolved "https://nexus.wheniwork.com/repository/npm/@twilio/mcs-client/-/mcs-client-0.5.3.tgz#633405fc615f75e911ffeeebcaeaecf3a96ba85d"
-  integrity sha512-dZK4fxbFnN4n8lxRKBLdtyy8kVkicg00KrwZIuQHW2lwNQ0M0aCrMzCNR1PDx3m9RdpDeXDhO3BEYTl6RFRTLw==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    "@twilio/declarative-type-validator" "^0.1.11"
-    "@twilio/operation-retrier" "^4.0.7"
-    core-js "^3.17.3"
-    loglevel "^1.7.1"
-    xmlhttprequest "^1.8.0"
-
-"@twilio/notifications@^1.0.5":
-  version "1.0.5"
-  resolved "https://nexus.wheniwork.com/repository/npm/@twilio/notifications/-/notifications-1.0.5.tgz#b5cf7b03beb32d8ba840cb71a3d1c8b630f90845"
-  integrity sha512-iPZrgXav0BixE2bbJFy7ExQY9I+ZrgXDkvkbEJN37dMHx/5wTX3UO1vGWDxfnhOZPFIpmBuwoflPIOMYVsgm2w==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    "@twilio/declarative-type-validator" "^0.1.11"
-    "@twilio/operation-retrier" "^4.0.7"
-    core-js "^3.17.3"
-    loglevel "^1.6.3"
-    twilsock "^0.12.2"
-    uuid "^3.4.0"
-
-"@twilio/operation-retrier@^4.0.7":
-  version "4.0.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/@twilio/operation-retrier/-/operation-retrier-4.0.7.tgz#3d93793e8c188c6615ee7bf184230dc53729d7ed"
-  integrity sha512-l3P0zjHgp4l/FyDzaSc8NJNsu+WYmYY/25XElFk70IhCYUPwqtbyCOz+VMH3BmCoHUOGctUuhJ7GtaGntvcc4g==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    core-js "^3.17.3"
-
-"@twilio/replay-event-emitter@^0.2.4":
-  version "0.2.4"
-  resolved "https://nexus.wheniwork.com/repository/npm/@twilio/replay-event-emitter/-/replay-event-emitter-0.2.4.tgz#865a5296c1fcd06c8e45a7a8b536785630f8a3d3"
-  integrity sha512-TbyiO4348fXfaUcIB++cZcNugRBeJvxl7d08EoyAxjdyEnAoGe4GwnuF5sazXnykHGR3W/WaPf5GG9o1jNOf7A==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    core-js "^3.17.3"
 
 "@types/aria-query@^4.2.0":
   version "4.2.1"
@@ -3217,11 +3126,6 @@ ansi-styles@^6.0.0:
   resolved "https://nexus.wheniwork.com/repository/npm/ansi-styles/-/ansi-styles-6.2.1.tgz#0e62320cf99c21afff3b3012192546aacbfb05c5"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
-ansicolors@~0.2.1:
-  version "0.2.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/ansicolors/-/ansicolors-0.2.1.tgz#be089599097b74a5c9c4a84a0cdbcdb62bd87aef"
-  integrity sha1-vgiVmQl7dKXJxKhKDNvNtivYeu8=
-
 anymatch@^3.0.3:
   version "3.1.2"
   resolved "https://nexus.wheniwork.com/repository/npm/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
@@ -3350,11 +3254,6 @@ astral-regex@^2.0.0:
   resolved "https://nexus.wheniwork.com/repository/npm/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-async-limiter@~1.0.0:
-  version "1.0.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
-  integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
-
 async-retry@1.2.3:
   version "1.2.3"
   resolved "https://nexus.wheniwork.com/repository/npm/async-retry/-/async-retry-1.2.3.tgz#a6521f338358d322b1a0012b79030c6f411d1ce0"
@@ -3368,13 +3267,6 @@ async-retry@1.3.3:
   integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
   dependencies:
     retry "0.13.1"
-
-async@^2.6.0:
-  version "2.6.3"
-  resolved "https://nexus.wheniwork.com/repository/npm/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
-  dependencies:
-    lodash "^4.17.14"
 
 async@~3.2.3:
   version "3.2.4"
@@ -3560,25 +3452,10 @@ before-after-hook@^2.2.0:
   resolved "https://nexus.wheniwork.com/repository/npm/before-after-hook/-/before-after-hook-2.2.2.tgz#a6e8ca41028d90ee2c24222f201c90956091613e"
   integrity sha512-3pZEU3NT5BFUo/AD5ERPWOgQOCZITni6iavr5AUw5AUwQjMlI0kzu5btnyD39AF0gUEsDPwJT+oY1ORBJijPjQ==
 
-big.js@^5.2.2:
-  version "5.2.2"
-  resolved "https://nexus.wheniwork.com/repository/npm/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
-  integrity sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
-
 binary-extensions@^2.0.0:
   version "2.1.0"
   resolved "https://nexus.wheniwork.com/repository/npm/binary-extensions/-/binary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
   integrity sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
-
-bluebird@^3.5.0:
-  version "3.7.2"
-  resolved "https://nexus.wheniwork.com/repository/npm/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
-  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
-
-blueimp-load-image@^2.6.1:
-  version "2.31.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/blueimp-load-image/-/blueimp-load-image-2.31.0.tgz#a8fd5e0849071a44367f5e1e870acdf638789963"
-  integrity sha512-6sTGh1OiUmuH8ftAYvUzALivoOmcnahinGmjZFI4puZVowXoKTn/bXtth7N1skW5AlezEOfjgFH4lNXHeNRQog==
 
 body-parser@1.20.0:
   version "1.20.0"
@@ -3807,14 +3684,6 @@ caniuse-lite@^1.0.30001426:
   version "1.0.30001431"
   resolved "https://nexus.wheniwork.com/repository/npm/caniuse-lite/-/caniuse-lite-1.0.30001431.tgz#e7c59bd1bc518fae03a4656be442ce6c4887a795"
   integrity sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==
-
-cardinal@^1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/cardinal/-/cardinal-1.0.0.tgz#50e21c1b0aa37729f9377def196b5a9cec932ee9"
-  integrity sha1-UOIcGwqjdyn5N33vGWtanOyTLuk=
-  dependencies:
-    ansicolors "~0.2.1"
-    redeyed "~1.0.0"
 
 cfb@~1.2.1:
   version "1.2.2"
@@ -4057,7 +3926,7 @@ colors@1.4.0:
   resolved "https://nexus.wheniwork.com/repository/npm/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
-combined-stream@^1.0.6, combined-stream@^1.0.8:
+combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://nexus.wheniwork.com/repository/npm/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
   integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
@@ -4078,16 +3947,6 @@ commander@^9.3.0:
   version "9.4.1"
   resolved "https://nexus.wheniwork.com/repository/npm/commander/-/commander-9.4.1.tgz#d1dd8f2ce6faf93147295c0df13c7c21141cfbdd"
   integrity sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==
-
-common-path-prefix@^3.0.0:
-  version "3.0.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/common-path-prefix/-/common-path-prefix-3.0.0.tgz#7d007a7e07c58c4b4d5f433131a19141b29f11e0"
-  integrity sha512-QE33hToZseCH3jS0qN96O/bSh3kaw/h+Tq7ngyY9eWDUnTlTNUyqfqvCXioLe5Na5jFsL78ra/wuBU4iuEgd4w==
-
-component-emitter@^1.2.0:
-  version "1.3.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
-  integrity sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==
 
 compressible@~2.0.16:
   version "2.0.18"
@@ -4163,11 +4022,6 @@ core-js-pure@^3.0.0:
   resolved "https://nexus.wheniwork.com/repository/npm/core-js-pure/-/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
   integrity sha512-lacdXOimsiD0QyNf9BC/mxivNJ/ybBGJXQFKzRekp1WTHoVUWsUHEn+2T8GJAzzIhyOuXA+gOxCVN3l+5PLPUA==
 
-core-js-pure@^3.23.3:
-  version "3.30.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/core-js-pure/-/core-js-pure-3.30.1.tgz#7d93dc89e7d47b8ef05d7e79f507b0e99ea77eec"
-  integrity sha512-nXBEVpmUnNRhz83cHd9JRQC52cTMcuXAmR56+9dSMpRdpeA4I1PX6yjmhd71Eyc/wXNsdBdUDIj1QTIeZpU5Tg==
-
 core-js@^2.4.0:
   version "2.6.11"
   resolved "https://nexus.wheniwork.com/repository/npm/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
@@ -4177,11 +4031,6 @@ core-js@^3.0.0:
   version "3.21.1"
   resolved "https://nexus.wheniwork.com/repository/npm/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
   integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
-
-core-js@^3.17.3:
-  version "3.20.3"
-  resolved "https://nexus.wheniwork.com/repository/npm/core-js/-/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
-  integrity sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag==
 
 core-js@^3.29.1:
   version "3.29.1"
@@ -4316,11 +4165,6 @@ csstype@^3.0.2:
   version "3.0.3"
   resolved "https://nexus.wheniwork.com/repository/npm/csstype/-/csstype-3.0.3.tgz#2b410bbeba38ba9633353aff34b05d9755d065f8"
   integrity sha512-jPl+wbWPOWJ7SXsWyqGRk3lGecbar0Cb0OvZF/r/ZU011R4YqiRehgkQ9p4eQfo9DSDLqLL3wHwfxeJiuIsNag==
-
-csv-parse@^4.6.5:
-  version "4.10.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/csv-parse/-/csv-parse-4.10.1.tgz#1e26ba63d29c75e94d0eba6e9de9a8aaf89d72a6"
-  integrity sha512-gdDJVchi0oSLIcYXz1H/VSgLE6htHDqJyFsRU/vTkQgmVOZ3S0IR2LXnNbWUYG7VD76dYVwdfBLyx8AX9+An8A==
 
 d3-array@2, d3-array@^2.3.0:
   version "2.12.1"
@@ -4787,11 +4631,6 @@ emoji-regex@^9.2.2:
   resolved "https://nexus.wheniwork.com/repository/npm/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emojis-list@^3.0.0:
-  version "3.0.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
-  integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
-
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://nexus.wheniwork.com/repository/npm/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
@@ -4843,13 +4682,6 @@ error-stack-parser@^2.0.4:
   integrity sha512-d51brTeqC+BHlwF0BhPtcYgF5nlzf9ZZ0ZIUQNZpc9ZB9qw5IJ2diTrBY9jlCJkTLITYPjmiX6OWCwH+fuyNgQ==
   dependencies:
     stackframe "^1.1.1"
-
-error-stack-parser@^2.0.6:
-  version "2.1.4"
-  resolved "https://nexus.wheniwork.com/repository/npm/error-stack-parser/-/error-stack-parser-2.1.4.tgz#229cb01cdbfa84440bfa91876285b94680188286"
-  integrity sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==
-  dependencies:
-    stackframe "^1.3.4"
 
 es-abstract@^1.18.0-next.1, es-abstract@^1.19.5, es-abstract@^1.20.0:
   version "1.20.1"
@@ -4956,11 +4788,6 @@ es-to-primitive@^1.2.1:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
-
-es6-promise@^3.1.2:
-  version "3.3.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/es6-promise/-/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
-  integrity sha1-oIzd6EzNvzTQJ6FFG8kdS80ophM=
 
 es6-promise@^4.2.2, es6-promise@^4.2.8:
   version "4.2.8"
@@ -5193,11 +5020,6 @@ esprima@^4.0.0, esprima@^4.0.1:
   resolved "https://nexus.wheniwork.com/repository/npm/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-esprima@~3.0.0:
-  version "3.0.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/esprima/-/esprima-3.0.0.tgz#53cf247acda77313e551c3aa2e73342d3fb4f7d9"
-  integrity sha1-U88kes2ncxPlUcOqLnM0LT+099k=
-
 esquery@^1.4.0:
   version "1.4.0"
   resolved "https://nexus.wheniwork.com/repository/npm/esquery/-/esquery-1.4.0.tgz#2148ffc38b82e8c7057dfed48425b3e61f0f24a5"
@@ -5274,11 +5096,6 @@ events@1.1.1:
   version "1.1.1"
   resolved "https://nexus.wheniwork.com/repository/npm/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
   integrity sha1-nr23Y1rQmccNzEwqH1AEKI6L2SQ=
-
-events@3.3.0:
-  version "3.3.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
-  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
 events@^3.2.0:
   version "3.2.0"
@@ -5649,20 +5466,6 @@ for-each@^0.3.3:
   dependencies:
     is-callable "^1.1.3"
 
-form-data-to-object@^0.2.0:
-  version "0.2.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/form-data-to-object/-/form-data-to-object-0.2.0.tgz#f7a8e68ddd910a1100a65e25ac6a484143ff8168"
-  integrity sha512-F10KT6YgIq4CxmiMCZONnYN4PC5ommk8rLb4WmeahqDDszerxVwBrjqjXiedqUfNClMxDHj04KWGRK30aDnIpw==
-
-form-data@^2.3.2:
-  version "2.5.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/form-data/-/form-data-2.5.1.tgz#f2cbec57b5e59e23716e128fe44d4e5dd23895f4"
-  integrity sha512-m21N3WOmEEURgk6B9GLOE4RuWOFf28Lhh9qGYeNlGq4VDXUlJy2th2slBNU8Gp8EzloYZOibZJ7t5ecIrFSjVA==
-  dependencies:
-    asynckit "^0.4.0"
-    combined-stream "^1.0.6"
-    mime-types "^2.1.12"
-
 form-data@^3.0.0:
   version "3.0.1"
   resolved "https://nexus.wheniwork.com/repository/npm/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
@@ -5680,13 +5483,6 @@ form-data@^4.0.0:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
-
-"formsy-react@github:wheniwork/formsy-react.git#c4d65fef77f0ab43734b73ed07d21bbb514b6470":
-  version "2.0.0-beta.4"
-  resolved "https://codeload.github.com/wheniwork/formsy-react/tar.gz/c4d65fef77f0ab43734b73ed07d21bbb514b6470"
-  dependencies:
-    form-data-to-object "^0.2.0"
-    prop-types "^15.7.2"
 
 forwarded@0.2.0:
   version "0.2.0"
@@ -6158,7 +5954,7 @@ html-encoding-sniffer@^3.0.0:
   dependencies:
     whatwg-encoding "^2.0.0"
 
-html-entities@2.3.3, html-entities@^2.1.0:
+html-entities@2.3.3:
   version "2.3.3"
   resolved "https://nexus.wheniwork.com/repository/npm/html-entities/-/html-entities-2.3.3.tgz#117d7626bece327fc8baace8868fa6f5ef856e46"
   integrity sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==
@@ -6274,11 +6070,6 @@ human-signals@^3.0.1:
   resolved "https://nexus.wheniwork.com/repository/npm/human-signals/-/human-signals-3.0.1.tgz#c740920859dafa50e5a3222da9d3bf4bb0e5eef5"
   integrity sha512-rQLskxnM/5OCldHo+wNXbpVgDn5A17CUoKX+7Sokwaknlq7CdSnphy0W39GU8dw59XiCXmFXDg4fRuckQRKewQ==
 
-humanize@^0.0.9:
-  version "0.0.9"
-  resolved "https://nexus.wheniwork.com/repository/npm/humanize/-/humanize-0.0.9.tgz#1994ffaecdfe9c441ed2bdac7452b7bb4c9e41a4"
-  integrity sha1-GZT/rs3+nEQe0r2sdFK3u0yeQaQ=
-
 husky@^8.0.0:
   version "8.0.2"
   resolved "https://nexus.wheniwork.com/repository/npm/husky/-/husky-8.0.2.tgz#5816a60db02650f1f22c8b69b928fd6bcd77a236"
@@ -6318,7 +6109,7 @@ immer@^9.0.16:
   resolved "https://nexus.wheniwork.com/repository/npm/immer/-/immer-9.0.16.tgz#8e7caab80118c2b54b37ad43e05758cdefad0198"
   integrity sha512-qenGE7CstVm1NrHQbMh8YaSzTZTFNP3zPqr3YU0S0UY441j4bJTg4A2Hh5KAhwgaiU6ZZ1Ar6y/2f4TblnMReQ==
 
-immutable@3.8.2, immutable@^3.8.1, immutable@^4.0.0:
+immutable@3.8.2, immutable@^4.0.0:
   version "3.8.2"
   resolved "https://nexus.wheniwork.com/repository/npm/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
   integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
@@ -6718,22 +6509,10 @@ isexe@^2.0.0:
   resolved "https://nexus.wheniwork.com/repository/npm/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-iso8601-duration@=1.2.0:
-  version "1.2.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/iso8601-duration/-/iso8601-duration-1.2.0.tgz#5fa6fc180a8fe95ad6a6721c9bdd9069cb59e80e"
-  integrity sha512-ErTBd++b17E8nmWII1K1uZtBgD1E8RjyvwmxlCjPHNqHMD7gmcMHOw0E8Ro/6+QT4PhHRSnnMo7bxa1vFPkwhg==
-
 isobject@^3.0.1:
   version "3.0.1"
   resolved "https://nexus.wheniwork.com/repository/npm/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
-
-isomorphic-form-data@^2.0.0:
-  version "2.0.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/isomorphic-form-data/-/isomorphic-form-data-2.0.0.tgz#9f6adf1c4c61ae3aefd8f110ab60fb9b143d6cec"
-  integrity sha512-TYgVnXWeESVmQSg4GLVbalmQ+B4NPi/H4eWxqALKj63KsUrcu301YDjBqaOw3h+cbak7Na4Xyps3BiptHtxTfg==
-  dependencies:
-    form-data "^2.3.2"
 
 istanbul-lib-coverage@^3.0.0, istanbul-lib-coverage@^3.2.0:
   version "3.2.0"
@@ -6784,11 +6563,6 @@ istanbul-reports@^3.1.5:
   dependencies:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
-
-javascript-state-machine@^3.1.0:
-  version "3.1.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/javascript-state-machine/-/javascript-state-machine-3.1.0.tgz#06eeb2136a6a19ae1b56105c25caec283dd5cd14"
-  integrity sha512-BwhYxQ1OPenBPXC735RgfB+ZUG8H3kjsx8hrYTgWnoy6TPipEy4fiicyhT2lxRKAXq9pG7CfFT8a2HLr6Hmwxg==
 
 jest-canvas-mock@2.4.0:
   version "2.4.0"
@@ -7493,7 +7267,7 @@ jmespath@0.16.0:
   resolved "https://nexus.wheniwork.com/repository/npm/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
   integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
 
-js-cookie@2.2.1, js-cookie@^2.1.4:
+js-cookie@2.2.1:
   version "2.2.1"
   resolved "https://nexus.wheniwork.com/repository/npm/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
   integrity sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==
@@ -7614,11 +7388,6 @@ json5@^2.1.0, json5@^2.2.1:
   version "2.2.1"
   resolved "https://nexus.wheniwork.com/repository/npm/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
-
-json5@^2.1.2:
-  version "2.2.3"
-  resolved "https://nexus.wheniwork.com/repository/npm/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
-  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonc-parser@^3.2.0:
   version "3.2.0"
@@ -7842,15 +7611,6 @@ loader-runner@^4.2.0:
   resolved "https://nexus.wheniwork.com/repository/npm/loader-runner/-/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
   integrity sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==
 
-loader-utils@^2.0.4:
-  version "2.0.4"
-  resolved "https://nexus.wheniwork.com/repository/npm/loader-utils/-/loader-utils-2.0.4.tgz#8b5cb38b5c34a9a018ee1fc0e6a066d1dfcc528c"
-  integrity sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==
-  dependencies:
-    big.js "^5.2.2"
-    emojis-list "^3.0.0"
-    json5 "^2.1.2"
-
 locate-path@^5.0.0:
   version "5.0.0"
   resolved "https://nexus.wheniwork.com/repository/npm/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
@@ -7980,7 +7740,7 @@ lodash@4.17.21, lodash@^4.17.21, lodash@^4.2.1:
   resolved "https://nexus.wheniwork.com/repository/npm/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.2.0, lodash@^4.6.1:
+lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.2.0, lodash@^4.6.1:
   version "4.17.15"
   resolved "https://nexus.wheniwork.com/repository/npm/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -7999,16 +7759,6 @@ log-update@^4.0.0:
     cli-cursor "^3.1.0"
     slice-ansi "^4.0.0"
     wrap-ansi "^6.2.0"
-
-loglevel@^1.6.3:
-  version "1.6.8"
-  resolved "https://nexus.wheniwork.com/repository/npm/loglevel/-/loglevel-1.6.8.tgz#8a25fb75d092230ecd4457270d80b54e28011171"
-  integrity sha512-bsU7+gc9AJ2SqpzxwU3+1fedl8zAntbtC5XYlt3s2j1hJcn2PsXSmgN8TaLG/J1/2mod4+cE/3vNL70/c1RNCA==
-
-loglevel@^1.6.6, loglevel@^1.7.1:
-  version "1.8.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/loglevel/-/loglevel-1.8.0.tgz#e7ec73a57e1e7b419cb6c6ac06bf050b67356114"
-  integrity sha512-G6A/nJLRgWOuuwdNuA6koovfEV1YpqqAG4pRUlFaz3jj2QNZ8M4vBqnVA+HBTmU/AMNUtlOsMmSpF6NyOjztbA==
 
 logrocket-react@^5.0.1:
   version "5.0.1"
@@ -8157,7 +7907,7 @@ meow@^9.0.0:
     type-fest "^0.18.0"
     yargs-parser "^20.2.3"
 
-mercury-js@1.3.0, mercury-js@^1.2.5:
+mercury-js@1.3.0:
   version "1.3.0"
   resolved "https://nexus.wheniwork.com/repository/npm/mercury-js/-/mercury-js-1.3.0.tgz#ca8a147b799cc8866887047438b655addc21a6a1"
   integrity sha512-e62SPWKzcMbdUq6skOCJ4GeQ42S5sgLyVoHc855Vdut1bLS/RG8tOSXibXuAsTevL5OPyLkQ4lhFrxFh/zLj4A==
@@ -8336,11 +8086,6 @@ minimist@^1.2.6:
   resolved "https://nexus.wheniwork.com/repository/npm/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://nexus.wheniwork.com/repository/npm/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
-  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
-
 mixpanel-browser@^2.45.0:
   version "2.45.0"
   resolved "https://nexus.wheniwork.com/repository/npm/mixpanel-browser/-/mixpanel-browser-2.45.0.tgz#a2973be5b66e6d2799ef95a1e55b8ad8eede57e8"
@@ -8363,7 +8108,7 @@ moment-timezone@0.5.39:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.18.1:
+"moment@>= 2.9.0":
   version "2.27.0"
   resolved "https://nexus.wheniwork.com/repository/npm/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
@@ -8686,14 +8431,6 @@ opener@^1.5.2:
   resolved "https://nexus.wheniwork.com/repository/npm/opener/-/opener-1.5.2.tgz#5d37e1f35077b9dcac4301372271afdeb2a13598"
   integrity sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
 
-optimist@^0.6.1:
-  version "0.6.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
-
 optionator@^0.8.1:
   version "0.8.3"
   resolved "https://nexus.wheniwork.com/repository/npm/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
@@ -8957,11 +8694,6 @@ pkg-dir@^4.2.0:
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
     find-up "^4.0.0"
-
-platform@^1.3.6:
-  version "1.3.6"
-  resolved "https://nexus.wheniwork.com/repository/npm/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
-  integrity sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
 
 pluralize@8.0.0:
   version "8.0.0"
@@ -9567,7 +9299,7 @@ react-keypress@0.1.5:
   resolved "https://nexus.wheniwork.com/repository/npm/react-keypress/-/react-keypress-0.1.5.tgz#a252ef834582b4e56434577d9592245064194edd"
   integrity sha1-olLvg0WCtOVkNFd9lZIkUGQZTt0=
 
-react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://nexus.wheniwork.com/repository/npm/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
@@ -9623,19 +9355,6 @@ react-redux@7.2.6:
     loose-envify "^1.4.0"
     prop-types "^15.7.2"
     react-is "^17.0.2"
-
-react-redux@^5.0.6:
-  version "5.1.2"
-  resolved "https://nexus.wheniwork.com/repository/npm/react-redux/-/react-redux-5.1.2.tgz#b19cf9e21d694422727bf798e934a916c4080f57"
-  integrity sha512-Ns1G0XXc8hDyH/OcBHOxNgQx9ayH3SPxBnFCOidGKSle8pKihysQw2rG/PmciUQRoclhVBO8HMhiRmGXnDja9Q==
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    hoist-non-react-statics "^3.3.0"
-    invariant "^2.2.4"
-    loose-envify "^1.1.0"
-    prop-types "^15.6.1"
-    react-is "^16.6.0"
-    react-lifecycles-compat "^3.0.0"
 
 react-refresh@0.14.0:
   version "0.14.0"
@@ -9969,13 +9688,6 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redeyed@~1.0.0:
-  version "1.0.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/redeyed/-/redeyed-1.0.1.tgz#e96c193b40c0816b00aec842698e61185e55498a"
-  integrity sha1-6WwZO0DAgWsArshCaY5hGF5VSYo=
-  dependencies:
-    esprima "~3.0.0"
-
 reduce-css-calc@^2.1.8:
   version "2.1.8"
   resolved "https://nexus.wheniwork.com/repository/npm/reduce-css-calc/-/reduce-css-calc-2.1.8.tgz#7ef8761a28d614980dc0c982f772c93f7a99de03"
@@ -10308,15 +10020,6 @@ scheduler@^0.23.0:
   dependencies:
     loose-envify "^1.1.0"
 
-schema-utils@^3.0.0:
-  version "3.1.2"
-  resolved "https://nexus.wheniwork.com/repository/npm/schema-utils/-/schema-utils-3.1.2.tgz#36c10abca6f7577aeae136c804b0c741edeadc99"
-  integrity sha512-pvjEHOgWc9OWA/f/DE3ohBWTD6EleVLf7iFUkoSwAxttdBhB9QUebQgxER2kWueOvRJXPHNnyrvvh9eZINB8Eg==
-  dependencies:
-    "@types/json-schema" "^7.0.8"
-    ajv "^6.12.5"
-    ajv-keywords "^3.5.2"
-
 schema-utils@^3.1.0, schema-utils@^3.1.1:
   version "3.1.1"
   resolved "https://nexus.wheniwork.com/repository/npm/schema-utils/-/schema-utils-3.1.1.tgz#bc74c4b6b6995c1d88f76a8b77bea7219e0c8281"
@@ -10494,17 +10197,6 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-sifter@^0.5.1:
-  version "0.5.4"
-  resolved "https://nexus.wheniwork.com/repository/npm/sifter/-/sifter-0.5.4.tgz#3cb9e514889edfc887d8d87a355841b01ebdd1ab"
-  integrity sha512-t2yxTi/MM/ESup7XH5oMu8PUcttlekt269RqxARgnvS+7D/oP6RyA1x3M/5w8dG9OgkOyQ8hNRWelQ8Rj4TAQQ==
-  dependencies:
-    async "^2.6.0"
-    cardinal "^1.0.0"
-    csv-parse "^4.6.5"
-    humanize "^0.0.9"
-    optimist "^0.6.1"
-
 signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   version "3.0.7"
   resolved "https://nexus.wheniwork.com/repository/npm/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
@@ -10595,11 +10287,6 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   resolved "https://nexus.wheniwork.com/repository/npm/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-source-map@^0.7.3:
-  version "0.7.4"
-  resolved "https://nexus.wheniwork.com/repository/npm/source-map/-/source-map-0.7.4.tgz#a9bbe705c9d8846f4e08ff6765acf0f1b0898656"
-  integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
-
 source-map@~0.7.2:
   version "0.7.3"
   resolved "https://nexus.wheniwork.com/repository/npm/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
@@ -10689,11 +10376,6 @@ stackframe@^1.1.1:
   version "1.2.0"
   resolved "https://nexus.wheniwork.com/repository/npm/stackframe/-/stackframe-1.2.0.tgz#52429492d63c62eb989804c11552e3d22e779303"
   integrity sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==
-
-stackframe@^1.3.4:
-  version "1.3.4"
-  resolved "https://nexus.wheniwork.com/repository/npm/stackframe/-/stackframe-1.3.4.tgz#b881a004c8c149a5e8efef37d51b16e412943310"
-  integrity sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==
 
 statuses@2.0.1:
   version "2.0.1"
@@ -11234,45 +10916,6 @@ tsutils@^3.21.0:
   dependencies:
     tslib "^1.8.1"
 
-twilio-common@^0.1.7:
-  version "0.1.7"
-  resolved "https://nexus.wheniwork.com/repository/npm/twilio-common/-/twilio-common-0.1.7.tgz#b61f02c73e05f0fe5dd6a0d61bb1da5a66164ed9"
-  integrity sha1-th8Cxz4F8P5d1qDWG7HaWmYWTtk=
-  dependencies:
-    es6-promise "^3.1.2"
-    xmlhttprequest "^1.8.0"
-
-twilio-sync@^3.1.0:
-  version "3.1.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/twilio-sync/-/twilio-sync-3.1.0.tgz#4506cebda612567d8965885af237dbde618867d9"
-  integrity sha512-KNkbbnoBITpsmxV2UnmNDEot/Q5t7p5I1zP05oqj0OYT1kMcZq4nhiSNkcxkunfxINFSUzz8d/mUA82yWS7iLQ==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    "@twilio/declarative-type-validator" "^0.1.11"
-    "@twilio/operation-retrier" "^4.0.7"
-    core-js "^3.17.3"
-    iso8601-duration "=1.2.0"
-    loglevel "^1.6.3"
-    platform "^1.3.6"
-    twilsock "^0.12.2"
-    uuid "^3.4.0"
-
-twilsock@^0.12.2:
-  version "0.12.2"
-  resolved "https://nexus.wheniwork.com/repository/npm/twilsock/-/twilsock-0.12.2.tgz#bc6331b14a80fb8a7d8022d2cb4a809cd6834b6f"
-  integrity sha512-7G59f2TCEnxcY2ZBCzaZOPmMDoxDrK9lMTiA7UvuiKca37Dljbdlu2EHI3+d7gU1JHkH5GNCmyxqJzSbZodwXA==
-  dependencies:
-    "@babel/runtime" "^7.14.5"
-    "@twilio/declarative-type-validator" "^0.1.11"
-    "@twilio/operation-retrier" "^4.0.7"
-    core-js "^3.17.3"
-    iso8601-duration "=1.2.0"
-    javascript-state-machine "^3.1.0"
-    loglevel "^1.6.3"
-    platform "^1.3.6"
-    uuid "^3.4.0"
-    ws "^5.2.3"
-
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://nexus.wheniwork.com/repository/npm/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
@@ -11454,7 +11097,7 @@ uuid@9.0.0:
   resolved "https://nexus.wheniwork.com/repository/npm/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
   integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
-uuid@^3.3.2, uuid@^3.4.0:
+uuid@^3.3.2:
   version "3.4.0"
   resolved "https://nexus.wheniwork.com/repository/npm/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
@@ -11597,41 +11240,6 @@ webpack-dev-middleware@^5.3.1:
     mime-types "^2.1.31"
     range-parser "^1.2.1"
     schema-utils "^4.0.0"
-
-webpack-dev-server@4.11.1:
-  version "4.11.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/webpack-dev-server/-/webpack-dev-server-4.11.1.tgz#ae07f0d71ca0438cf88446f09029b92ce81380b5"
-  integrity sha512-lILVz9tAUy1zGFwieuaQtYiadImb5M3d+H+L1zDYalYoDl0cksAB1UNyuE5MMWJrG6zR1tXkCP2fitl7yoUJiw==
-  dependencies:
-    "@types/bonjour" "^3.5.9"
-    "@types/connect-history-api-fallback" "^1.3.5"
-    "@types/express" "^4.17.13"
-    "@types/serve-index" "^1.9.1"
-    "@types/serve-static" "^1.13.10"
-    "@types/sockjs" "^0.3.33"
-    "@types/ws" "^8.5.1"
-    ansi-html-community "^0.0.8"
-    bonjour-service "^1.0.11"
-    chokidar "^3.5.3"
-    colorette "^2.0.10"
-    compression "^1.7.4"
-    connect-history-api-fallback "^2.0.0"
-    default-gateway "^6.0.3"
-    express "^4.17.3"
-    graceful-fs "^4.2.6"
-    html-entities "^2.3.2"
-    http-proxy-middleware "^2.0.3"
-    ipaddr.js "^2.0.1"
-    open "^8.0.9"
-    p-retry "^4.5.0"
-    rimraf "^3.0.2"
-    schema-utils "^4.0.0"
-    selfsigned "^2.1.1"
-    serve-index "^1.9.1"
-    sockjs "^0.3.24"
-    spdy "^4.0.2"
-    webpack-dev-middleware "^5.3.1"
-    ws "^8.4.2"
 
 webpack-dev-server@4.13.1:
   version "4.13.1"
@@ -11833,29 +11441,6 @@ word@~0.3.0:
   resolved "https://nexus.wheniwork.com/repository/npm/word/-/word-0.3.0.tgz#8542157e4f8e849f4a363a288992d47612db9961"
   integrity sha512-OELeY0Q61OXpdUfTp+oweA/vtLVg5VDOXh+3he3PNzLGG/y0oylSOC1xRVj0+l4vQ3tj/bB1HVHv1ocXkQceFA==
 
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://nexus.wheniwork.com/repository/npm/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
-
-workchat@5.1.1:
-  version "5.1.1"
-  resolved "https://nexus.wheniwork.com/repository/npm/workchat/-/workchat-5.1.1.tgz#8a0ac93533c063d24eb3246fb8d362d1ab18dfd9"
-  integrity sha512-FhbeYxQFH09W0Q4jC2rPWXcAEiy9wUnln/II3yaco3pXP/tuK1MxxEVlWRZdHcKCj90IyIWkzAorH9bnxwuSkQ==
-  dependencies:
-    "@twilio/conversations" "2.1.0"
-    bluebird "^3.5.0"
-    blueimp-load-image "^2.6.1"
-    component-emitter "^1.2.0"
-    immutable "^3.8.1"
-    js-cookie "^2.1.4"
-    mercury-js "^1.2.5"
-    moment "^2.18.1"
-    react-redux "^5.0.6"
-    redux "^4.0.0"
-    sifter "^0.5.1"
-    twilio-common "^0.1.7"
-
 wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://nexus.wheniwork.com/repository/npm/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
@@ -11897,19 +11482,12 @@ ws@8.8.1:
   resolved "https://nexus.wheniwork.com/repository/npm/ws/-/ws-8.8.1.tgz#5dbad0feb7ade8ecc99b830c1d77c913d4955ff0"
   integrity sha512-bGy2JzvzkPowEJV++hF07hAD6niYSr0JzBNo/J29WsB57A2r7Wlc1UFcTR9IzrPvuNVO4B8LGqF8qcpsVOhJCA==
 
-ws@^5.2.3:
-  version "5.2.3"
-  resolved "https://nexus.wheniwork.com/repository/npm/ws/-/ws-5.2.3.tgz#05541053414921bc29c63bee14b8b0dd50b07b3d"
-  integrity sha512-jZArVERrMsKUatIdnLzqvcfydI85dvd/Fp1u/VOpfdDWQ4c9qWXe+VIeAbQ5FrDwciAkr+lzofXLz3Kuf26AOA==
-  dependencies:
-    async-limiter "~1.0.0"
-
 ws@^7.3.1:
   version "7.4.3"
   resolved "https://nexus.wheniwork.com/repository/npm/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
   integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
 
-ws@^8.13.0, ws@^8.4.2:
+ws@^8.13.0:
   version "8.13.0"
   resolved "https://nexus.wheniwork.com/repository/npm/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
   integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
@@ -11984,11 +11562,6 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://nexus.wheniwork.com/repository/npm/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xmlhttprequest@^1.8.0:
-  version "1.8.0"
-  resolved "https://nexus.wheniwork.com/repository/npm/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz#67fe075c5c24fef39f9d65f5f7b7fe75171968fc"
-  integrity sha1-Z/4HXFwk/vOfnWX197f+dRcZaPw=
 
 xtend@~4.0.1:
   version "4.0.2"

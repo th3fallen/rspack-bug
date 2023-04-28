@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js start
+  /usr/local/bin/node /Users/clarktomlinson/.yarn/bin/yarn.js build
 
 PATH: 
   /opt/homebrew/opt/gnu-getopt/bin:/Users/clarktomlinson/.rd/bin:/Users/clarktomlinson/.bun/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/opt/gpg-agent/bin:/Users/clarktomlinson/.yarn/bin:/Users/clarktomlinson/.rd/bin:/Users/clarktomlinson/.volta/bin:/usr/local/sbin:/Users/clarktomlinson/bin:/usr/local/opt/ruby/bin:/usr/local/bin:/Users/clarktomlinson/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/clarktomlinson/.cargo/bin:/Users/clarktomlinson/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/Users/clarktomlinson/.antigen/bundles/Aloxaf/fzf-tab:/Users/clarktomlinson/.antigen/bundles/zsh-users/zsh-completions:/Users/clarktomlinson/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/Users/clarktomlinson/.antigen/bundles/zsh-users/zsh-autosuggestions:/usr/local/sbin::/usr/local/opt/ruby/bin:/usr/local/bin:/Users/clarktomlinson/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/clarktomlinson/.nexustools:/Users/clarktomlinson/.rvm/bin:/Users/clarktomlinson/Sites/Go/bin:/Users/clarktomlinson/.composer/vendor/bin:/Users/clarktomlinson/.krew/bin:/home/clarktomlinson/.local/bin:/opt/homebrew/opt/fzf/bin
@@ -8,29 +8,31 @@ Yarn version:
   1.22.19
 
 Node version: 
-  18.16.0
+  18.12.1
 
 Platform: 
   darwin arm64
 
 Trace: 
-  SyntaxError: /Users/clarktomlinson/Sites/rspack-bug-sass-include-paths/package.json: Unexpected token } in JSON at position 174
+  SyntaxError: /Users/clarktomlinson/Sites/rspack-bug-sass-include-paths/package.json: Unexpected token } in JSON at position 256
       at JSON.parse (<anonymous>)
-      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at /Users/clarktomlinson/.yarn/lib/cli.js:1629:59
       at Generator.next (<anonymous>)
-      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
-      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+      at step (/Users/clarktomlinson/.yarn/lib/cli.js:310:30)
+      at /Users/clarktomlinson/.yarn/lib/cli.js:321:13
 
 npm manifest: 
   {
-    "name": "example",
+    "name": "buggies-js",
     "version": "0.0.1",
-    "description": "",
-    "main": "app/main.js",
+    "main": "app/index.js",
     "scripts": {
       "start": "rspack serve --mode development --env development",
+      "clean": "rm -rf ./dist/*",
+      "build": "yarn run clean && rspack build -- mode production",
+  
     },
-    "author": "meee",
+    "author": "bug exp",
     "license": "proprietary",
     "private": true,
     "browserslist": [
