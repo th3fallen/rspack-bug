@@ -59,9 +59,9 @@ module.exports = function (envFlag) {
 		output: {
 			publicPath: '/',
 			path: path.resolve(cwd, 'dist'),
-			filename: isDevelopment ? 'assets/js/[name].js' : 'assets/js/[name]-[chunkhash].js',
-			cssFilename: isDevelopment ? 'assets/css/[name].css' : 'assets/css/[name]-[chunkhash].css',
-			cssChunkFilename: isDevelopment ? 'assets/css/fart-[chunkhash].css' : 'assets/css/[name]-[chunkhash].css',
+			filename: isDevelopment ? 'assets/js/[name].js' : 'assets/js/[name]-[contenthash].js',
+			cssFilename: isDevelopment ? 'assets/css/[name].css' : 'assets/css/[name]-[contenthash].css',
+			cssChunkFilename: 'assets/css/[name]-[contenthash].css',
 		},
 		resolve: {
 			modules: ['node_modules', 'app'],
@@ -95,7 +95,7 @@ module.exports = function (envFlag) {
 				{
 					test: /\.(ts |jsx?)$/,
 					type: 'jsx',
-					include: [path.resolve(cwd, 'app')],
+					exclude: /node_modules/,
 				},
 				{
 					test: /\.mjs$/i,
